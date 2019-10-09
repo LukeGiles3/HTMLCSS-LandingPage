@@ -123,5 +123,34 @@ section { display: flex; }
   padding: 25px 0;
 }
 .banner img { width: 250px; }
-
+.banner-text {
+ font-size: 30px;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 1;
+ text-align: center;
+}
+.banner-text > div:last-child {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.catergory { flex: 0 0 25%; padding: 0 15px; }
+.catergory img { width: 100%; }
+.catergory-text {
+  color: #364147;
+  padding: 30px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.catergory-text > div {
+  font-size: 16px;
+  font-weight: 200;
+  color: #faa541;
+}
+.catergory-text h3 {
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 1;
+}
 /***************************************/
